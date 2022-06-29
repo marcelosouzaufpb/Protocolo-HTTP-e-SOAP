@@ -1,5 +1,5 @@
 const soap = require('soap');
-const url = 'https://www.crcind.com/csp/samples/SOAP.Demo.CLS?WSDL';
+const url = 'http://www.crcind.com/csp/samples/SOAP.Demo.CLS?WSDL';
 
 soap.createClient(url, (err, client) => {
     if (err) {
